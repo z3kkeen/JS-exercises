@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    background-color:rgba(207, 167, 80, 0.568);
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    border: 3.5px dotted #c5821d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
